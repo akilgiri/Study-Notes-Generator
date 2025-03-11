@@ -51,6 +51,7 @@ Create a .env file in the project root with the following:
 - Provide the course and the specific topic for which you want the notes generated
 - Example image of filled inputs:
 <img width="720" alt="Screenshot 2025-03-10 at 10 45 21 PM" src="https://github.com/user-attachments/assets/3fd7d7e0-42eb-4b20-8d8d-9cf5d8714ac3" />
+
 6. **Generate study notes**
 - Click the "Generate notes" button
 - The application will take a few minutes to run and generate your notes
