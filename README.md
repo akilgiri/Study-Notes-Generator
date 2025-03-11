@@ -32,25 +32,25 @@ Study Notes Generator is an AI application designed to help students efficiently
 
 ---
 # Running the application
-1. **Clone the Repository:**
-```git clone https://github.com/akilgiri/Study-Notes-Generator.git```
-```cd Study-Notes-Generator/macos```
-2. **Install required python libraries**
+1. **Clone the Repository:**  
+```git clone https://github.com/akilgiri/Study-Notes-Generator.git```  
+```cd Study-Notes-Generator/macos```  
+2. **Install required python libraries**  
 ```pip install -r requirements.txt```
-3. **Configure environment variables**
-Create a .env file in the project root with the following:
-```QDRANT_URL="https://your-qdrant-instance"```
-```QDRANT_API_KEY="your-qdrant-api-key"```
-```OPENAI_API_KEY="your-openai-api-key"```
-4. **Run the Streamlit application**
-```streamlit run frontend_app.py```
-5. **Input your data:**
+3. **Configure environment variables**  
+Create a .env file in the project root with the following:  
+```QDRANT_URL="https://your-qdrant-instance"```  
+```QDRANT_API_KEY="your-qdrant-api-key"```  
+```OPENAI_API_KEY="your-openai-api-key"```  
+4. **Run the Streamlit application**  
+```streamlit run frontend_app.py```  
+5. **Input your data:**  
 - mp4 file path for lecture video
 - pdf file path for course notes
 - Folder in which you want application output
 - Provide the course and the specific topic for which you want the notes generated
 - Example image of filled inputs:
-<img width="720" alt="Screenshot 2025-03-10 at 10 45 21 PM" src="https://github.com/user-attachments/assets/3fd7d7e0-42eb-4b20-8d8d-9cf5d8714ac3" />
+ <img width="720" alt="Screenshot 2025-03-10 at 10 45 21 PM" src="https://github.com/user-attachments/assets/3fd7d7e0-42eb-4b20-8d8d-9cf5d8714ac3" />
 
 6. **Generate study notes**
 - Click the "Generate notes" button
@@ -80,6 +80,6 @@ All outputs can be found in the ```sample_output``` folder.
 ---
 # Known Issues
 - Qwen2.5-VL is a very demanding model hardware-wise, and due to this some pdfs don't work due to memory constraints. I am looking to implement a workaround to reduce memory usage by limiting the input image size.
-- The following RuntimeError may occur when running the streamlit app, however the app work even if this occurs
+- The following RuntimeError may occur when running the streamlit app, however the user interface still works even if this error occurs
  ```RuntimeError: Tried to instantiate class '__path__._path', but it does not exist! Ensure that it is registered via torch::class_```
 
