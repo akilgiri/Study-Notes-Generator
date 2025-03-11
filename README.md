@@ -83,7 +83,7 @@ streamlit run frontend_app.py
 - `04a-regex2dfa.md` – The summary generated from the PDF OCR by Qwen2.5-VL.
 - `uw_ece351_regex2dfa.txt` – The transcription from the lecture video via Whisper.
 
-All outputs can be found in the `sample_output` folder.
+`study_notes.md` and `04a-regex2dfa.md` can be found in the `sample_output` folder.
 
 ---
 # Known Issues
