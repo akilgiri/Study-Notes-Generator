@@ -33,18 +33,26 @@ Study Notes Generator is an AI application designed to help students efficiently
 ---
 # Running the application
 1. **Clone the Repository:**  
-```git clone https://github.com/akilgiri/Study-Notes-Generator.git```  
-```cd Study-Notes-Generator/macos```  
-2. **Install required python libraries**  
-```pip install -r requirements.txt```
-3. **Configure environment variables**  
+```
+git clone https://github.com/akilgiri/Study-Notes-Generator.git  
+cd Study-Notes-Generator/macos
+```  
+3. **Install required python libraries**  
+```
+pip install -r requirements.txt
+```
+5. **Configure environment variables**  
 Create a .env file in the project root with the following:  
-```QDRANT_URL="https://your-qdrant-instance"```  
-```QDRANT_API_KEY="your-qdrant-api-key"```  
-```OPENAI_API_KEY="your-openai-api-key"```  
-4. **Run the Streamlit application**  
-```streamlit run frontend_app.py```  
-5. **Input your data:**  
+```
+QDRANT_URL="https://your-qdrant-instance" 
+QDRANT_API_KEY="your-qdrant-api-key"
+OPENAI_API_KEY="your-openai-api-key"
+```  
+7. **Run the Streamlit application**  
+```
+streamlit run frontend_app.py
+```  
+9. **Input your data:**  
 - mp4 file path for lecture video
 - pdf file path for course notes
 - Folder in which you want application output
@@ -71,11 +79,11 @@ Create a .env file in the project root with the following:
   - 11-page course slides (approximately 2.5 minutes for OCR processing).
 
 **Output Files:**
-- ```study_notes.md``` – The final study notes generated using o3-mini.
-- ```04a-regex2dfa.md``` – The summary generated from the PDF OCR by Qwen2.5-VL.
-- ```uw_ece351_regex2dfa.txt``` – The transcription from the lecture video via Whisper.
+- `study_notes.md` – The final study notes generated using o3-mini.
+- `04a-regex2dfa.md` – The summary generated from the PDF OCR by Qwen2.5-VL.
+- `uw_ece351_regex2dfa.txt` – The transcription from the lecture video via Whisper.
 
-All outputs can be found in the ```sample_output``` folder.
+All outputs can be found in the `sample_output` folder.
 
 ---
 # Known Issues
