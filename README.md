@@ -37,22 +37,22 @@ Study Notes Generator is an AI application designed to help students efficiently
 git clone https://github.com/akilgiri/Study-Notes-Generator.git  
 cd Study-Notes-Generator/macos
 ```  
-3. **Install required python libraries**  
+2. **Install required python libraries**  
 ```
 pip install -r requirements.txt
 ```
-5. **Configure environment variables**  
+3. **Configure environment variables**  
 Create a .env file in the project root with the following:  
 ```
 QDRANT_URL="https://your-qdrant-instance" 
 QDRANT_API_KEY="your-qdrant-api-key"
 OPENAI_API_KEY="your-openai-api-key"
 ```  
-7. **Run the Streamlit application**  
+4. **Run the Streamlit application**  
 ```
 streamlit run frontend_app.py
 ```  
-9. **Input your data:**  
+5. **Input your data:**  
 - mp4 file path for lecture video
 - pdf file path for course notes
 - Folder in which you want application output
