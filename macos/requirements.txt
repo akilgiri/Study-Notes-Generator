@@ -1,0 +1,13 @@
+mlx_whisper
+mlx_vlm
+mlx_lm
+pdf2image
+openai
+qdrant_client
+langchain_experimental
+langchain_openai
+langchain_qdrant
+langchain_core
+langchain_qdrant
+streamlit
+pytubefix
